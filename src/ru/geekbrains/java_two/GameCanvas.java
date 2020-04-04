@@ -3,10 +3,12 @@ package ru.geekbrains.java_two;
 import javax.swing.*;
 import java.awt.*;
 
+
 public class GameCanvas extends JPanel {
 
     MainCircles listener;
     long lastFrameTime;
+    Background background = new Background(this);
 
     GameCanvas(MainCircles listener) {
         this.listener = listener;
@@ -26,6 +28,7 @@ public class GameCanvas extends JPanel {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        background.ChangeBackground();
         repaint();
     }
 

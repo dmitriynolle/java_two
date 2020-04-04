@@ -12,12 +12,12 @@ public class MainCircles extends JFrame {
     Sprite[] sprites = new Sprite[10];
 
     public static void main(String[] args) {
-       SwingUtilities.invokeLater(new Runnable() {
-           @Override
-           public void run() {
-               new MainCircles();
-           }
-       });
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new MainCircles();
+            }
+        });
     }
 
     private MainCircles() {

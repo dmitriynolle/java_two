@@ -29,9 +29,20 @@ public class GameCanvas extends JPanel {
         repaint();
     }
 
-    public int getLeft() { return 0; }
-    public int getRight() { return getWidth() - 1; }
-    public int getTop() { return 0; }
-    public int getBottom() { return getHeight() - 1; }
+    public int getLeft() {
+        return 0;
+    }
+
+    public int getRight() {
+        return getWidth() - 1;
+    }
+
+    public int getTop() {
+        return 0;
+    }
+
+    public int getBottom() {
+        return getHeight() - 1;
+    }
 
 }

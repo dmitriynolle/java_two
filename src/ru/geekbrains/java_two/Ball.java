@@ -4,16 +4,16 @@ import java.awt.*;
 
 public class Ball extends Sprite {
 
-    private final Color color = new Color (
-            (int)(Math.random() * 255),
-            (int)(Math.random() * 255),
-            (int)(Math.random() * 255)
+    private final Color color = new Color(
+            (int) (Math.random() * 255),
+            (int) (Math.random() * 255),
+            (int) (Math.random() * 255)
     );
-    private float vX = (float)(100f + (Math.random() * 200f));
-    private float vY = (float)(100f + (Math.random() * 200f));
+    private float vX = (float) (100f + (Math.random() * 200f));
+    private float vY = (float) (100f + (Math.random() * 200f));
 
     Ball() {
-        halfHeight = 20 + (float)(Math.random() * 50f);
+        halfHeight = 20 + (float) (Math.random() * 50f);
         halfWidth = halfHeight;
     }
 

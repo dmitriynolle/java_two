@@ -21,6 +21,9 @@ public class MainThread {
         float[] arr = new float[size];
         float[] a1 = new float[h];
         float[] a2 = new float[h];
+        for (int i = 0; i < size; i++) {
+            arr[i] = 1f;
+        }
         long a = System.currentTimeMillis();
         System.arraycopy(arr, 0, a1, 0, h);
         System.arraycopy(arr, h, a2, 0, h);
